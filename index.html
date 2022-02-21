@@ -52,8 +52,9 @@
       <div class="header__nav">
         <div class="container">
           <div class="row -header-nav-row">
-            <div class="col-lg-8">
+            <div class="col-lg-7 col-xl-8">
               <nav class="header__navbar navbar navbar-expand-lg navbar-light">
+                <div class="drop-menu"></div>
                 <div class="header__menu">
                   <ul class="nav-menu mb-0 -fs-16" id="hmenu">
                     <li class="nav-item">
@@ -72,6 +73,34 @@
                       <a class="nav-link" href="#">Контакты</a>
                     </li>
                   </ul>
+                  <div class="mobil__info">
+                    <div class="mobil-top">
+                      <div class="mobil-top-logo">
+                        <div class="header__logo">
+                          <a href="/" class="logotype"><img src="i/logo.svg" alt=""></a>
+                          <div class="logotype-text -center">Ростов</div>
+                        </div>
+                      </div>
+                      <div class="mobil-top-logo"></div>
+                    </div>
+                    <div class="header__geo">
+                      г. Ростов-на-Дону  
+                    </div>
+                    <div class="header__wtime">9:00 — 18:00</div>
+                    <div class="header__phone">
+                      <a href="tel:88633335305">8 (863) 333-53-05</a>
+                    </div>
+                    
+                    <div class="header__info">
+                      Есть круглосуточные приемные пункты. Подробнее по телефону 8 (863) 333-53-05
+                    </div> 
+                    <div class="header__today">
+                      Сегодня 18 января 2022
+                    </div> 
+                    <div class="header__callback">
+                      <a href="#">Заказать звонок</a>
+                    </div>
+                  </div>
                 </div>
                 <div class="header__search">
                   <form class="search-form -fs-12">
@@ -93,7 +122,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-5 col-xl-4">
               <div class="iprice-list">
                 <div class="iprice-list-title -fs-22 -center">актуальные расценки</div>
                 <div class="iprice-wrap -fs-20">
@@ -146,22 +175,22 @@
       <div class="itop__bottom">
         <div class="container">
           <div class="row">
-            <div class="col-lg-8">
+            <div class="col-xl-8">
               <div class="itop__list -white">
                 <div class="row">
-                  <div class="col-lg-4 -itop-item-col">
+                  <div class="col-6 col-md-4 -itop-item-col">
                     <div class="itop-item -fs-16">
                       <div class="itop-item-icon"><img src="i/icon-itop01.svg" alt=""></div>
                       <div class="itop-item-text">Один из крупнейших промышленно-металлургических холдингов России</div>
                     </div>
                   </div>
-                  <div class="col-lg-4 -itop-item-col">
+                  <div class="col-6 col-md-4 -itop-item-col">
                     <div class="itop-item -fs-16">
                       <div class="itop-item-icon"><img src="i/icon-itop02.svg" alt=""></div>
                       <div class="itop-item-text">Выгодные условия на прием металлолома в Ростове-на-Дону</div>
                     </div>
                   </div>
-                  <div class="col-lg-4 -itop-item-col">
+                  <div class="col-12 col-md-4 -itop-item-col">
                     <div class="itop-item -fs-16">
                       <div class="itop-item-icon"><img src="i/icon-itop03.svg" alt=""></div>
                       <div class="itop-item-text">Рециклинг сырья: от приема и переработки до поставки крупнейшим металлургическим комбинатам СНГ</div>
@@ -195,25 +224,25 @@
           <div class="col-lg-5">
             <div class="iabout__num">
               <div class="row -num-row">
-                <div class="col-lg-6">
+                <div class="col-6 col-lg-6">
                   <div class="num__item">
                     <div class="num-ttl -fs-150 -prx-exb">01</div>
                     <div class="num-txt -fs-16">Точная оценка сплавов</div>
                   </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-6 col-lg-6">
                   <div class="num__item">
                     <div class="num-ttl -fs-150 -prx-exb">02</div>
                     <div class="num-txt -fs-16">Высокая цена за 1 кг</div>
                   </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-6 col-lg-6">
                   <div class="num__item">
                     <div class="num-ttl -fs-150 -prx-exb">03</div>
                     <div class="num-txt -fs-16">Персональный подход к оптовым поставщикам</div>
                   </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-6 col-lg-6">
                   <div class="num__item">
                     <div class="num-ttl -fs-150 -prx-exb">04</div>
                     <div class="num-txt -fs-16">Комплекс дополнительных услуг (демонтаж, распил, вывоз)</div>
@@ -230,19 +259,21 @@
       <div class="container-fluid">
         <div class="iservice__wrap -overlay" style="background: url(i/isection01.jpg)no-repeat">
           <div class="row -iservice-row g-0">
-            <div class="col-lg-3 -iservice-item-col">
+            <div class="col-md-6 col-lg-3 -iservice-item-col">
               <div class="iservice-item" data-bg="i/isection01.jpg">
                 <div class="iservice-bg"></div>
                 <div class="iservice__info">
                   <a href="#" class="service__ttl btn btn-arrow -fs-25">Черный лом</a>
                   <ul class="service__sub -fs-20">
-                    <li><a href="#">Трансорфматорная сталь</a></li>
-                    <li><a href="#">Оцинкованая сталь</a></li>
+                    <li><a href="#">Листовой лом</a></li>
+                    <li><a href="#">Металлические конструкции</a></li>
+                    <li><a href="#">Металлическая стружка</a></li>
+                    <li><a href="#">Чугун</a></li>  
                   </ul>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 -iservice-item-col">
+            <div class="col-md-6 col-lg-3 -iservice-item-col">
               <div class="iservice-item" data-bg="i/isection02.jpg">
                 <div class="iservice-bg"></div>
                 <div class="iservice__info">
@@ -254,11 +285,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 -iservice-item-col">
+            <div class="col-md-6 col-lg-3 -iservice-item-col">
               <div class="iservice-item" data-bg="i/isection01.jpg">
                 <div class="iservice-bg"></div>
                 <div class="iservice__info">
-                  <a href="#" class="service__ttl btn btn-arrow -fs-25">Цветной лом</a>
+                  <a href="#" class="service__ttl btn btn-arrow -fs-25">Стальной лом</a>
                   <ul class="service__sub -fs-20">
                     <li><a href="#">Трансорфматорная сталь</a></li>
                     <li><a href="#">Оцинкованая сталь</a></li>
@@ -266,35 +297,32 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 -iservice-item-col">
+            <div class="col-md-6 col-lg-3 -iservice-item-col">
               <div class="iservice-item" data-bg="i/isection02.jpg">
                 <div class="iservice-bg"></div>
                 <div class="iservice__info">
-                  <a href="#" class="service__ttl btn btn-arrow -fs-25">Цветной лом</a>
-                  <ul class="service__sub -fs-20">
-                    <li><a href="#">Трансорфматорная сталь</a></li>
-                    <li><a href="#">Оцинкованая сталь</a></li>
-                  </ul>
+                  <a href="#" class="service__ttl btn btn-arrow -fs-25">Деловой лом</a>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 -iservice-item-col">
+            <div class="col-md-6 col-lg-3 -iservice-item-col">
               <div class="iservice-item" data-bg="i/isection01.jpg">
                 <div class="iservice-bg"></div>
                 <div class="iservice__info">
-                  <a href="#" class="service__ttl btn btn-arrow -fs-25">Черный лом</a>
+                  <a href="#" class="service__ttl btn btn-arrow -fs-25">Рециклинг и утилизация</a>
                   <ul class="service__sub -fs-20">
-                    <li><a href="#">Трансорфматорная сталь</a></li>
-                    <li><a href="#">Оцинкованая сталь</a></li>
+                    <li><a href="#">Утилизация автомобилей</a></li>
+                    <li><a href="#">ЖД Рециклинг</a></li>
+                    <li><a href="#">Утилизация судов</a></li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 -iservice-item-col">
+            <div class="col-md-6 col-lg-3 -iservice-item-col">
               <div class="iservice-item" data-bg="i/isection02.jpg">
                 <div class="iservice-bg"></div>
                 <div class="iservice__info">
-                  <a href="#" class="service__ttl btn btn-arrow -fs-25">Цветной лом</a>
+                  <a href="#" class="service__ttl btn btn-arrow -fs-25">Демонтаж</a>
                   <ul class="service__sub -fs-20">
                     <li><a href="#">Трансорфматорная сталь</a></li>
                     <li><a href="#">Оцинкованая сталь</a></li>
@@ -302,11 +330,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 -iservice-item-col">
+            <div class="col-md-6 col-lg-3 -iservice-item-col">
               <div class="iservice-item" data-bg="i/isection01.jpg">
                 <div class="iservice-bg"></div>
                 <div class="iservice__info">
-                  <a href="#" class="service__ttl btn btn-arrow -fs-25">Цветной лом</a>
+                  <a href="#" class="service__ttl btn btn-arrow -fs-25">Вывоз лома</a>
                   <ul class="service__sub -fs-20">
                     <li><a href="#">Трансорфматорная сталь</a></li>
                     <li><a href="#">Оцинкованая сталь</a></li>
@@ -314,7 +342,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 -iservice-item-col">
+            <div class="col-md-6 col-lg-3 -iservice-item-col">
               <div class="iservice-item" data-bg="i/isection02.jpg">
                 <div class="iservice-bg"></div>
                 <div class="iservice__info">
@@ -334,26 +362,26 @@
       <div class="container">
         <div class="section__title">этапы приёма лома</div>
         <div class="row -istep-row">
-          <div class="col-md-3 -istep-col">
+          <div class="col-sm-6 col-md-3 -istep-col">
             <div class="istep__item">
               <div class="istep__num -mns-b -fs-36"><span>01</span></div>
               <div class="istep__text -fs-20">Визуальный осмотр на предмет примесей и загрязнений</div>
             </div>
           </div>
-          <div class="col-md-3 -istep-col">
+          <div class="col-sm-6 col-md-3 -istep-col">
             <div class="istep__item">
               <div class="istep__num -mns-b -fs-36"><span>02</span></div>
               <div class="istep__text -fs-20">Сортировка</div>
             </div>
           </div>
-          <div class="col-md-3 -istep-col">
+          <div class="col-sm-6 col-md-3 -istep-col">
             <div class="istep__item">
               <div class="istep__num -mns-b -fs-36"><span>03</span></div>
               <div class="istep__text -fs-20">Взвешивание и озвучивание 
                 окончательной стоимости</div>
             </div>
           </div>
-          <div class="col-md-3 -istep-col">
+          <div class="col-sm-6 col-md-3 -istep-col">
             <div class="istep__item">
               <div class="istep__num -mns-b -fs-36"><span>04</span></div>
               <div class="istep__text -fs-20">Оформление
@@ -366,12 +394,12 @@
     <div class="section iorder p-0">
       <div class="container-fluid">
         <div class="row -iorder-row">
-          <div class="col-md-6 -iorder-col">
+          <div class="col-lg-6 -iorder-col">
             <div class="iorder__img">
               <img src="i/iorder.jpg" alt="">
             </div>
           </div>
-          <div class="col-md-6 -iorder-col">
+          <div class="col-lg-6 -iorder-col">
             <div class="iorder__info">
               <div class="section__title">Мы готовы к вам приехать</div>
               <div class="iorder__text">
@@ -390,61 +418,63 @@
     <div class="section iinner-price">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <div class="iprice">
               <div class="section__title">прайс-лист</div>
               <p class="iprice__time -gray">Прайс от 23.03.2020 09:00</p>
               <div class="iprice__tabs">
-                <div class="iprice__nav -prx-sb">
-                  <div class="nav-group">
-                    <a href="#" class="nav-item active">Физ. лицам</a>
-                    <a href="#" class="nav-item">Юр. лицам</a>
+                <div class="iprice-tabs-wrap">
+                  <div class="iprice__nav -prx-sb">
+                    <div class="nav-group">
+                      <a href="#" class="nav-item active">Физ. лицам</a>
+                      <a href="#" class="nav-item">Юр. лицам</a>
+                    </div>
+                    <div class="nav-group">
+                      <a href="#" class="nav-item active">Чёрный лом</a>
+                      <a href="#" class="nav-item">Цветной лом</a>
+                    </div>
                   </div>
-                  <div class="nav-group">
-                    <a href="#" class="nav-item active">Чёрный лом</a>
-                    <a href="#" class="nav-item">Цветной лом</a>
-                  </div>
-                </div>
-                <div class="iprice__content">
-                  <div class="iprice__item">
-                    <table class="iprice__table">
-                      <tr>
-                        <th>Вид лома</th>
-                        <th>Засор, %</th>
-                        <th>Цена за кг. (нал/безнал)</th>
-                      </tr>
-                      <tr>
-                        <td>3А</td>
-                        <td>от 3 %</td>
-                        <td>13400/14000 ₽</td>
-                      </tr>
-                      <tr>
-                        <td colspan="3">
-                          <p>Состав: Данная категория включает в себя габаритный лом.</p>
-                          <p>Описание: Лом черных металлов. Размеры куска не более 1500 х 500 х 500 мм. Не допускаются огнетушители и другие закрытые емкости.</p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>5А; 12А</td>
-                        <td>от 3 %</td>
-                        <td>12900/13500 ₽</td>
-                      </tr>
-                      <tr>
-                        <td colspan="3">
-                          <p>Лом черного металла 5 А включает в себя стальные составляющие промышленного оборудования, части механизмов и агрегатов. Лом черного металла 12 А - это стальной лом малой толщины (менее 4 мм) , включает в себя листовые и полосовые отходы, тонкостенные трубы, профлист.</p>
-                          <p>Описание: К металлолому категории 5 А относится негабаритный лом размерами более 1500 х 500 х 500 мм. Минимально требуемая толщина металла составляет от 4 мм. Не допускаются огнетушители и другие закрытые емкости. К металлолому категории 12 А относится лом с нерегламентированными размерами, толщиной менее 4 мм.</p>
-                        </td>
-                      </tr>
-                    </table>
-                    <div class="iprice__btn">
-                      <a href="#" class="btn btn-primary">посмотреть прайс</a>
+                  <div class="iprice__content">
+                    <div class="iprice__item">
+                      <table class="iprice__table">
+                        <tr>
+                          <th>Вид лома</th>
+                          <th>Засор, %</th>
+                          <th>Цена за кг. (нал/безнал)</th>
+                        </tr>
+                        <tr>
+                          <td>3А</td>
+                          <td>от 3 %</td>
+                          <td>13400/14000 ₽</td>
+                        </tr>
+                        <tr>
+                          <td colspan="3">
+                            <p>Состав: Данная категория включает в себя габаритный лом.</p>
+                            <p>Описание: Лом черных металлов. Размеры куска не более 1500 х 500 х 500 мм. Не допускаются огнетушители и другие закрытые емкости.</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>5А; 12А</td>
+                          <td>от 3 %</td>
+                          <td>12900/13500 ₽</td>
+                        </tr>
+                        <tr>
+                          <td colspan="3">
+                            <p>Лом черного металла 5 А включает в себя стальные составляющие промышленного оборудования, части механизмов и агрегатов. Лом черного металла 12 А - это стальной лом малой толщины (менее 4 мм) , включает в себя листовые и полосовые отходы, тонкостенные трубы, профлист.</p>
+                            <p>Описание: К металлолому категории 5 А относится негабаритный лом размерами более 1500 х 500 х 500 мм. Минимально требуемая толщина металла составляет от 4 мм. Не допускаются огнетушители и другие закрытые емкости. К металлолому категории 12 А относится лом с нерегламентированными размерами, толщиной менее 4 мм.</p>
+                          </td>
+                        </tr>
+                      </table>
+                      <div class="iprice__btn">
+                        <a href="#" class="btn btn-primary">посмотреть прайс</a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-5 offset-lg-1">
+          <div class="col-lg-6 col-xl-5 offset-xl-1">
             <div class="ireason -bg-gray">
               <div class="ireason__title -mns-b">
                 <div class="title-num -red -fs-120">5</div>
@@ -465,7 +495,7 @@
     <div class="section iworkout -bg-gray">
       <div class="container">
         <div class="row -iworkout-row">
-          <div class="col-lg-4 offset-1">
+          <div class="col-lg-6 col-xl-4 offset-xl-1">
             <div class="section__title">На цену влияют</div>
             <div class="iworkout__text -fs-16">
               Получите оптимальную цену за 1 кг металлолома. Принимаем дорого, так как после переработки лом поставляется на металлургические предприятия, в виде вторсырья. Сдать оптом выгоднее.
@@ -474,22 +504,22 @@
               <a href="#" class="btn btn-primary">оценить лом по фото</a>
             </div>
           </div>
-          <div class="col-lg-6 offset-1">
+          <div class="col-lg-6 col-xl-6 offset-xl-1">
             <div class="iworkout__list">
               <div class="row -iworkout-list-row">
-                <div class="col-lg-4">
+                <div class="col-md-4">
                   <div class="iworkout__item -center">
                     <div class="iworkout-icon"><img src="i/icons-iworkout01.svg" alt=""></div>
                     <div class="iworkout-txt -fs-20">марка и чистота сплава</div>
                   </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-4">
                   <div class="iworkout__item -center">
                     <div class="iworkout-icon"><img src="i/icons-iworkout02.svg" alt=""></div>
                     <div class="iworkout-txt -fs-20">вес материала (цена за тонну выше)</div>
                   </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-4">
                   <div class="iworkout__item -center">
                     <div class="iworkout-icon"><img src="i/icons-iworkout03.svg" alt=""></div>
                     <div class="iworkout-txt -fs-20">наличие засора и коррозии</div>
@@ -527,7 +557,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-5 offset-lg-1">
+          <div class="col-lg-6 col-xl-5 offset-xl-1">
             <div class="igaranty">
               <div class="section__title">гарантии</div>
               <div class="igaranty__text -fs-16">
@@ -582,7 +612,7 @@
     <div class="footer__top -bg-nblack">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-md-4 col-lg-7 col-xl-6">
             <div class="footer-left">
               <div class="footer__logo">
                 <a href="/"><img src="i/footer-logo.svg" alt=""></a>
@@ -607,7 +637,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 offset-2">
+          <div class="col-md-8 col-lg-5 col-xl-4 offset-xl-2">
             <div class="footer-right">
               <div class="footer-contacts">
                 <div class="footer__phone -prx-sb -fs-16">
@@ -635,10 +665,10 @@
     <div class="footer__bottom -bg-black">
       <div class="container">
         <div class="row -fbottom-row">
-          <div class="col-lg-3">
+          <div class="col-sm-5 col-lg-4 col-xl-3">
             <div class="copy -fs-14">© ООО «АКРОН ЮГ» 2022</div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-sm-7 col-lg-5 col-xl-4">
             <div class="dev -fs-16">
               <a href="#">Сделано руками <img src="i/logo-akticom.svg" alt=""></a>
             </div>
